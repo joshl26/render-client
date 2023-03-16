@@ -1,8 +1,25 @@
 {
   "proxy": "http://localhost:3001",
-  "name": "create-react-app",
   "version": "0.1.0",
-  "private": true,
+  "name": "render-client",
+  "description": "Render.com frontend test",
+  "author": "Joshua Lehman",
+  "license": "MIT",
+  "packageManager": "^pnpm@6.32.4",
+  "homepage": "https://github.com/joshl26/render-client#readme",
+  "demo": "https://github.com/joshl26/render-client",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshl26/render-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joshl26/render-client/issues"
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=17.0.0"
+  },
+  "private": false,
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
